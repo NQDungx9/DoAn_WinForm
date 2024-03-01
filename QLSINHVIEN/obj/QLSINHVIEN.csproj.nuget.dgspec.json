@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vivobook\\OneDrive\\Desktop\\CS464_G_INDIVIDUAL_PROJECT\\QLSINHVIEN\\QLSINHVIEN.csproj": {}
+    "C:\\Users\\vivobook\\OneDrive\\Desktop\\DoAn_WinForm\\QLSINHVIEN\\QLSINHVIEN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vivobook\\OneDrive\\Desktop\\CS464_G_INDIVIDUAL_PROJECT\\QLSINHVIEN\\QLSINHVIEN.csproj": {
+    "C:\\Users\\vivobook\\OneDrive\\Desktop\\DoAn_WinForm\\QLSINHVIEN\\QLSINHVIEN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivobook\\OneDrive\\Desktop\\CS464_G_INDIVIDUAL_PROJECT\\QLSINHVIEN\\QLSINHVIEN.csproj",
+        "projectUniqueName": "C:\\Users\\vivobook\\OneDrive\\Desktop\\DoAn_WinForm\\QLSINHVIEN\\QLSINHVIEN.csproj",
         "projectName": "QLSINHVIEN",
-        "projectPath": "C:\\Users\\vivobook\\OneDrive\\Desktop\\CS464_G_INDIVIDUAL_PROJECT\\QLSINHVIEN\\QLSINHVIEN.csproj",
+        "projectPath": "C:\\Users\\vivobook\\OneDrive\\Desktop\\DoAn_WinForm\\QLSINHVIEN\\QLSINHVIEN.csproj",
         "packagesPath": "C:\\Users\\vivobook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivobook\\OneDrive\\Desktop\\CS464_G_INDIVIDUAL_PROJECT\\QLSINHVIEN\\obj\\",
+        "outputPath": "C:\\Users\\vivobook\\OneDrive\\Desktop\\DoAn_WinForm\\QLSINHVIEN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vivobook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -51,10 +51,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -63,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

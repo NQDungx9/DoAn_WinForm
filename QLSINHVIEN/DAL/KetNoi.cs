@@ -11,7 +11,7 @@ namespace QLSINHVIEN
 {
     class KetNoi
     {
-        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\vivobook\OneDrive\Desktop\CS464_G_INDIVIDUAL_PROJECT\QLSINHVIEN\QLSINHVIEN.mdf;Integrated Security=True";
+        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\vivobook\OneDrive\Desktop\DoAn_WinForm\QLSINHVIEN\QLSINHVIEN.mdf;Integrated Security=True";
         SqlConnection conn;
         public KetNoi()
         {

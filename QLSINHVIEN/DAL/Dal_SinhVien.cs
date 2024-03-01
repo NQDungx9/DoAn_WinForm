@@ -16,7 +16,8 @@ namespace QLSINHVIEN.DAL
         }
         public DataTable LoadGrid()
         {
-            string loadGrid = "select * from SinhVien";
+            string loadGrid = "select SinhVien.*, Lop.Khoa " +
+                "from SinhVien INNER JOIN Lop ON SinhVien.MaLop = Lop.MaLop";
             return kn.Load_Data(loadGrid);
         }
         public DataTable LoadComBo()

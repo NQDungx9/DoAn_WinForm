@@ -29,6 +29,7 @@ namespace QLSINHVIEN.GUI
             dataGridView1.Columns[2].HeaderText = "Ngày Sinh";
             dataGridView1.Columns[3].HeaderText = "Số Điện Thoại";
             dataGridView1.Columns[4].HeaderText = "Lớp";
+            dataGridView1.Columns["Khoa"].HeaderText = "Tên khoa";
 
             dataGridView1.Columns[0].Width = 200;
             dataGridView1.Columns[1].Width = 250;

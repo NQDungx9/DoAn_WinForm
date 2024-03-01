@@ -32,46 +32,44 @@ namespace QLSINHVIEN.GUI
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.bt_Hủy = new System.Windows.Forms.Button();
-            this.bt_Reset = new System.Windows.Forms.Button();
-            this.txt_NienKhoa = new System.Windows.Forms.TextBox();
-            this.txt_Khoa = new System.Windows.Forms.TextBox();
-            this.txt_MaLop = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bt_Xoa = new System.Windows.Forms.Button();
-            this.bt_Sua = new System.Windows.Forms.Button();
-            this.bt_Luu = new System.Windows.Forms.Button();
-            this.bt_Them = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.SuspendLayout();
+            dataGridView1 = new System.Windows.Forms.DataGridView();
+            panel1 = new System.Windows.Forms.Panel();
+            bt_Hủy = new System.Windows.Forms.Button();
+            bt_Reset = new System.Windows.Forms.Button();
+            txt_NienKhoa = new System.Windows.Forms.TextBox();
+            txt_Khoa = new System.Windows.Forms.TextBox();
+            txt_MaLop = new System.Windows.Forms.TextBox();
+            label4 = new System.Windows.Forms.Label();
+            label3 = new System.Windows.Forms.Label();
+            label1 = new System.Windows.Forms.Label();
+            panel2 = new System.Windows.Forms.Panel();
+            bt_Xoa = new System.Windows.Forms.Button();
+            bt_Sua = new System.Windows.Forms.Button();
+            bt_Luu = new System.Windows.Forms.Button();
+            bt_Them = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeColumns = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.SkyBlue;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AllowUserToResizeColumns = false;
+            dataGridView1.AllowUserToResizeRows = false;
+            dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            dataGridView1.BackgroundColor = System.Drawing.Color.SkyBlue;
+            dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(0, 192, 0);
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ButtonHighlight;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.ColumnHeadersHeight = 45;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.ColumnHeadersHeight = 45;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -79,221 +77,218 @@ namespace QLSINHVIEN.GUI
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.dataGridView1.Location = new System.Drawing.Point(99, 100);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridView1.EnableHeadersVisualStyles = false;
+            dataGridView1.GridColor = System.Drawing.Color.FromArgb(128, 128, 255);
+            dataGridView1.Location = new System.Drawing.Point(99, 100);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersVisible = false;
+            dataGridView1.RowHeadersWidth = 51;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.Azure;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(1023, 518);
-            this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridView1.RowTemplate.Height = 29;
+            dataGridView1.Size = new System.Drawing.Size(1023, 518);
+            dataGridView1.TabIndex = 1;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Controls.Add(this.bt_Hủy);
-            this.panel1.Controls.Add(this.bt_Reset);
-            this.panel1.Controls.Add(this.txt_NienKhoa);
-            this.panel1.Controls.Add(this.txt_Khoa);
-            this.panel1.Controls.Add(this.txt_MaLop);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1187, 100);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(346, 518);
-            this.panel1.TabIndex = 2;
+            panel1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            panel1.Controls.Add(bt_Hủy);
+            panel1.Controls.Add(bt_Reset);
+            panel1.Controls.Add(txt_NienKhoa);
+            panel1.Controls.Add(txt_Khoa);
+            panel1.Controls.Add(txt_MaLop);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label1);
+            panel1.Location = new System.Drawing.Point(1187, 100);
+            panel1.Name = "panel1";
+            panel1.Size = new System.Drawing.Size(346, 518);
+            panel1.TabIndex = 2;
             // 
             // bt_Hủy
             // 
-            this.bt_Hủy.BackColor = System.Drawing.Color.LightCoral;
-            this.bt_Hủy.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_Hủy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bt_Hủy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bt_Hủy.Location = new System.Drawing.Point(187, 404);
-            this.bt_Hủy.Name = "bt_Hủy";
-            this.bt_Hủy.Size = new System.Drawing.Size(115, 46);
-            this.bt_Hủy.TabIndex = 12;
-            this.bt_Hủy.Text = "Hủy";
-            this.bt_Hủy.UseVisualStyleBackColor = false;
-            this.bt_Hủy.Visible = false;
-            this.bt_Hủy.Click += new System.EventHandler(this.bt_Hủy_Click);
+            bt_Hủy.BackColor = System.Drawing.Color.LightCoral;
+            bt_Hủy.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            bt_Hủy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            bt_Hủy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            bt_Hủy.Location = new System.Drawing.Point(187, 404);
+            bt_Hủy.Name = "bt_Hủy";
+            bt_Hủy.Size = new System.Drawing.Size(115, 46);
+            bt_Hủy.TabIndex = 12;
+            bt_Hủy.Text = "Hủy";
+            bt_Hủy.UseVisualStyleBackColor = false;
+            bt_Hủy.Visible = false;
+            bt_Hủy.Click += bt_Hủy_Click;
             // 
             // bt_Reset
             // 
-            this.bt_Reset.BackColor = System.Drawing.Color.LightCoral;
-            this.bt_Reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_Reset.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bt_Reset.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bt_Reset.Location = new System.Drawing.Point(20, 404);
-            this.bt_Reset.Name = "bt_Reset";
-            this.bt_Reset.Size = new System.Drawing.Size(115, 46);
-            this.bt_Reset.TabIndex = 11;
-            this.bt_Reset.Text = "Reset";
-            this.bt_Reset.UseVisualStyleBackColor = false;
-            this.bt_Reset.Visible = false;
-            this.bt_Reset.Click += new System.EventHandler(this.bt_Reset_Click);
+            bt_Reset.BackColor = System.Drawing.Color.LightCoral;
+            bt_Reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            bt_Reset.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            bt_Reset.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            bt_Reset.Location = new System.Drawing.Point(20, 404);
+            bt_Reset.Name = "bt_Reset";
+            bt_Reset.Size = new System.Drawing.Size(115, 46);
+            bt_Reset.TabIndex = 11;
+            bt_Reset.Text = "Reset";
+            bt_Reset.UseVisualStyleBackColor = false;
+            bt_Reset.Visible = false;
+            bt_Reset.Click += bt_Reset_Click;
             // 
             // txt_NienKhoa
             // 
-            this.txt_NienKhoa.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txt_NienKhoa.Enabled = false;
-            this.txt_NienKhoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_NienKhoa.Location = new System.Drawing.Point(20, 221);
-            this.txt_NienKhoa.Name = "txt_NienKhoa";
-            this.txt_NienKhoa.Size = new System.Drawing.Size(282, 34);
-            this.txt_NienKhoa.TabIndex = 10;
+            txt_NienKhoa.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            txt_NienKhoa.Enabled = false;
+            txt_NienKhoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txt_NienKhoa.Location = new System.Drawing.Point(20, 221);
+            txt_NienKhoa.Name = "txt_NienKhoa";
+            txt_NienKhoa.Size = new System.Drawing.Size(282, 34);
+            txt_NienKhoa.TabIndex = 10;
             // 
             // txt_Khoa
             // 
-            this.txt_Khoa.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txt_Khoa.Enabled = false;
-            this.txt_Khoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_Khoa.Location = new System.Drawing.Point(20, 127);
-            this.txt_Khoa.Name = "txt_Khoa";
-            this.txt_Khoa.Size = new System.Drawing.Size(282, 34);
-            this.txt_Khoa.TabIndex = 6;
+            txt_Khoa.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            txt_Khoa.Enabled = false;
+            txt_Khoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txt_Khoa.Location = new System.Drawing.Point(20, 127);
+            txt_Khoa.Name = "txt_Khoa";
+            txt_Khoa.Size = new System.Drawing.Size(282, 34);
+            txt_Khoa.TabIndex = 6;
             // 
             // txt_MaLop
             // 
-            this.txt_MaLop.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txt_MaLop.Enabled = false;
-            this.txt_MaLop.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_MaLop.Location = new System.Drawing.Point(18, 38);
-            this.txt_MaLop.Name = "txt_MaLop";
-            this.txt_MaLop.Size = new System.Drawing.Size(284, 34);
-            this.txt_MaLop.TabIndex = 5;
+            txt_MaLop.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            txt_MaLop.Enabled = false;
+            txt_MaLop.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txt_MaLop.Location = new System.Drawing.Point(18, 38);
+            txt_MaLop.Name = "txt_MaLop";
+            txt_MaLop.Size = new System.Drawing.Size(284, 34);
+            txt_MaLop.TabIndex = 5;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(20, 196);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 22);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Niên Khóa";
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label4.Location = new System.Drawing.Point(20, 196);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(95, 22);
+            label4.TabIndex = 3;
+            label4.Text = "Niên Khóa";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(18, 102);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 22);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Khoa";
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label3.Location = new System.Drawing.Point(18, 102);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(52, 22);
+            label3.TabIndex = 2;
+            label3.Text = "Khoa";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(18, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 22);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mã Lớp";
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label1.Location = new System.Drawing.Point(18, 15);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(73, 22);
+            label1.TabIndex = 0;
+            label1.Text = "Mã Lớp";
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.SkyBlue;
-            this.panel2.Controls.Add(this.bt_Xoa);
-            this.panel2.Controls.Add(this.bt_Sua);
-            this.panel2.Controls.Add(this.bt_Luu);
-            this.panel2.Controls.Add(this.bt_Them);
-            this.panel2.Location = new System.Drawing.Point(99, 650);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1434, 106);
-            this.panel2.TabIndex = 3;
+            panel2.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            panel2.BackColor = System.Drawing.Color.SkyBlue;
+            panel2.Controls.Add(bt_Xoa);
+            panel2.Controls.Add(bt_Sua);
+            panel2.Controls.Add(bt_Luu);
+            panel2.Controls.Add(bt_Them);
+            panel2.Location = new System.Drawing.Point(99, 650);
+            panel2.Name = "panel2";
+            panel2.Size = new System.Drawing.Size(1434, 106);
+            panel2.TabIndex = 3;
             // 
             // bt_Xoa
             // 
-            this.bt_Xoa.BackColor = System.Drawing.Color.SkyBlue;
-            this.bt_Xoa.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bt_Xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Xoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bt_Xoa.Image = global::QLSINHVIEN.Properties.Resources.icons8_delete_100;
-            this.bt_Xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_Xoa.Location = new System.Drawing.Point(1054, 0);
-            this.bt_Xoa.Name = "bt_Xoa";
-            this.bt_Xoa.Size = new System.Drawing.Size(380, 106);
-            this.bt_Xoa.TabIndex = 3;
-            this.bt_Xoa.Text = "Xóa";
-            this.bt_Xoa.UseVisualStyleBackColor = false;
-            this.bt_Xoa.Click += new System.EventHandler(this.bt_Xoa_Click);
+            bt_Xoa.BackColor = System.Drawing.Color.SkyBlue;
+            bt_Xoa.Dock = System.Windows.Forms.DockStyle.Right;
+            bt_Xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            bt_Xoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            bt_Xoa.Image = Properties.Resources.icons8_delete_100;
+            bt_Xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            bt_Xoa.Location = new System.Drawing.Point(1054, 0);
+            bt_Xoa.Name = "bt_Xoa";
+            bt_Xoa.Size = new System.Drawing.Size(380, 106);
+            bt_Xoa.TabIndex = 3;
+            bt_Xoa.Text = "Xóa";
+            bt_Xoa.UseVisualStyleBackColor = false;
+            bt_Xoa.Click += bt_Xoa_Click;
             // 
             // bt_Sua
             // 
-            this.bt_Sua.BackColor = System.Drawing.Color.SkyBlue;
-            this.bt_Sua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Sua.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bt_Sua.Image = global::QLSINHVIEN.Properties.Resources.icons8_pencil_drawing_96;
-            this.bt_Sua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_Sua.Location = new System.Drawing.Point(768, 0);
-            this.bt_Sua.Name = "bt_Sua";
-            this.bt_Sua.Size = new System.Drawing.Size(390, 106);
-            this.bt_Sua.TabIndex = 2;
-            this.bt_Sua.Text = "Sửa";
-            this.bt_Sua.UseVisualStyleBackColor = false;
-            this.bt_Sua.Click += new System.EventHandler(this.bt_Sua_Click);
+            bt_Sua.BackColor = System.Drawing.Color.SkyBlue;
+            bt_Sua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            bt_Sua.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            bt_Sua.Image = Properties.Resources.icons8_pencil_drawing_96;
+            bt_Sua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            bt_Sua.Location = new System.Drawing.Point(768, 0);
+            bt_Sua.Name = "bt_Sua";
+            bt_Sua.Size = new System.Drawing.Size(390, 106);
+            bt_Sua.TabIndex = 2;
+            bt_Sua.Text = "Sửa";
+            bt_Sua.UseVisualStyleBackColor = false;
+            bt_Sua.Click += bt_Sua_Click;
             // 
             // bt_Luu
             // 
-            this.bt_Luu.BackColor = System.Drawing.Color.SkyBlue;
-            this.bt_Luu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Luu.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bt_Luu.Image = global::QLSINHVIEN.Properties.Resources.icons8_save_96;
-            this.bt_Luu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_Luu.Location = new System.Drawing.Point(389, 0);
-            this.bt_Luu.Name = "bt_Luu";
-            this.bt_Luu.Size = new System.Drawing.Size(380, 106);
-            this.bt_Luu.TabIndex = 1;
-            this.bt_Luu.Text = "Lưu";
-            this.bt_Luu.UseVisualStyleBackColor = false;
-            this.bt_Luu.Click += new System.EventHandler(this.bt_Luu_Click);
+            bt_Luu.BackColor = System.Drawing.Color.SkyBlue;
+            bt_Luu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            bt_Luu.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            bt_Luu.Image = Properties.Resources.icons8_save_96;
+            bt_Luu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            bt_Luu.Location = new System.Drawing.Point(389, 0);
+            bt_Luu.Name = "bt_Luu";
+            bt_Luu.Size = new System.Drawing.Size(380, 106);
+            bt_Luu.TabIndex = 1;
+            bt_Luu.Text = "Lưu";
+            bt_Luu.UseVisualStyleBackColor = false;
+            bt_Luu.Click += bt_Luu_Click;
             // 
             // bt_Them
             // 
-            this.bt_Them.BackColor = System.Drawing.Color.SkyBlue;
-            this.bt_Them.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Them.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.bt_Them.Image = global::QLSINHVIEN.Properties.Resources.icons8_add_80;
-            this.bt_Them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_Them.Location = new System.Drawing.Point(0, 0);
-            this.bt_Them.Name = "bt_Them";
-            this.bt_Them.Size = new System.Drawing.Size(390, 106);
-            this.bt_Them.TabIndex = 0;
-            this.bt_Them.Text = "Thêm";
-            this.bt_Them.UseVisualStyleBackColor = false;
-            this.bt_Them.Click += new System.EventHandler(this.bt_Them_Click);
+            bt_Them.BackColor = System.Drawing.Color.SkyBlue;
+            bt_Them.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            bt_Them.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            bt_Them.Image = Properties.Resources.icons8_add_80;
+            bt_Them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            bt_Them.Location = new System.Drawing.Point(0, 0);
+            bt_Them.Name = "bt_Them";
+            bt_Them.Size = new System.Drawing.Size(390, 106);
+            bt_Them.TabIndex = 0;
+            bt_Them.Text = "Thêm";
+            bt_Them.UseVisualStyleBackColor = false;
+            bt_Them.Click += bt_Them_Click;
             // 
             // frm_Lop
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1571, 782);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
-            this.Name = "frm_Lop";
-            this.Text = "frm_Lop";
-            this.Load += new System.EventHandler(this.frm_Lop_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.FromArgb(128, 128, 255);
+            ClientSize = new System.Drawing.Size(1571, 782);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Controls.Add(dataGridView1);
+            Name = "frm_Lop";
+            Text = "frm_Lop";
+            Load += frm_Lop_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
